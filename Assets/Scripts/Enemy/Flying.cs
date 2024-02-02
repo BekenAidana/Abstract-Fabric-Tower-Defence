@@ -2,7 +2,7 @@ using UnityEngine;
 
 public abstract class Flying : Enemy
 {
-    [SerializeField] private float _height = 0.5f;
+    [SerializeField] private float _height = 0.75f;
 
     public float Height
     {
